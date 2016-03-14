@@ -1,0 +1,27 @@
+{
+  "name": "barapp_server",
+  "version": "1.0.0",
+  "description": "API server for the barapp application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoppyfrog/backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoppyfrog/backend/issues"
+  },
+  "homepage": "https://github.com/hoppyfrog/backend#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2",
+    "supertest": "^1.2.0"
+  }
+}
